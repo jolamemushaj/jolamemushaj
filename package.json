@@ -1,0 +1,17 @@
+{
+  "name": "jolamemushaj",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch-css": "tailwindcss -i ./src/style.css -o ./public/style.css --watch",
+    "build-css": "tailwindcss -i ./src/style.css -o ./public/style.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "tailwindcss": "^3.0.23"
+  }
+}
