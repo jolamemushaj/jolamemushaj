@@ -11,7 +11,7 @@ html {
   box-sizing: border-box;
 }
 
-body {
+body .container {
   font-family: 'Nunito', sans-serif;
   font-weight: 400;
   height: 100vh;
