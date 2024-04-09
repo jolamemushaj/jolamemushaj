@@ -5,67 +5,102 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Jola Memushaj</title>
     <meta type="description" content="">
+    <meta name="image"
+          property="og:image"
+          content="img/meta-image.png">
     <link rel="stylesheet" href="style.css">
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+          integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+          integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
 </head>
-<body class="bg-gray-50">
+<body class="">
 <div>
-    <!-- Hero card -->
-    <div class="relative">
-        <div class="relative sm:overflow-hidden">
-            <div class="absolute inset-0">
-                <img class="h-full w-full object-cover"
-                     src="img/deti.webp"
-                     alt="Hero section" title="Hero section">
-                <div class="absolute inset-0 bg-gray-50 mix-blend-multiply"></div>
-            </div>
-            <div class="relative px-4 py-16 sm:px-6 lg:px-8 lg:pt-24">
-                <div class="mx-auto max-w-7xl">
-                    <div class="mb-8">
-                        <img class="w-20 h-20 object-cover rounded-full"
-                             src="img/profile-photo.webp"
-                             alt="">
+    <!--------------Header-------------------->
+
+    <div class="overflow-hidden relative py-12 md:py-20 px-6 lg:px-8 bg-primary z-10">
+        <div class="flex flex-col  z-10">
+            <div class="flex flex-col lg:flex-row justify-between space-y-8 lg:space-y-0 lg:space-x-24 lg:p-6">
+                <div class="flex flex-col md:flex-row md:space-x-4 lg:flex-col lg:space-x-0 tracking-tight">
+                    <div class="text-6xl lg:text-8xl text-black font-ternary tracking-tighter">
+                        An
                     </div>
-                    <div class="text-left">
-                        <h1 class="text-2xl font-semibold tracking-tight text-white drop-shadow-md shadow-black dark:text-zinc-100 sm:text-5xl">
-                            Hi, I'm Fabjola</h1>
-                        <p class="mt-3 max-w-2xl text-lg text-gray-200 drop-shadow-md shadow-black">I am a former
-                            accountant in career transition to programmer.</p>
-                        <p class="max-w-2xl text-lg text-gray-200 drop-shadow-md shadow-black">This is my personal site,
-                            where you will find all projects, built by me, following certain courses. I'm still
-                            uploading and enjoying ☻</p>
-
-                        <div class="mt-6 flex gap-6">
-                            <a class="group -m-1 p-1" target="_blank" aria-label="Follow on Twitter"
-                               href="https://twitter.com/jola_memushaj">
-                                <svg viewBox="0 0 24 24" aria-hidden="true"
-                                     class="h-6 w-6 fill-white transition group-hover:fill-gray-200">
-                                    <path d="M20.055 7.983c.011.174.011.347.011.523 0 5.338-3.92 11.494-11.09 11.494v-.003A10.755 10.755 0 0 1 3 18.186c.308.038.618.057.928.058a7.655 7.655 0 0 0 4.841-1.733c-1.668-.032-3.13-1.16-3.642-2.805a3.753 3.753 0 0 0 1.76-.07C5.07 13.256 3.76 11.6 3.76 9.676v-.05a3.77 3.77 0 0 0 1.77.505C3.816 8.945 3.288 6.583 4.322 4.737c1.98 2.524 4.9 4.058 8.034 4.22a4.137 4.137 0 0 1 1.128-3.86A3.807 3.807 0 0 1 19 5.274a7.657 7.657 0 0 0 2.475-.98c-.29.934-.9 1.729-1.713 2.233A7.54 7.54 0 0 0 22 5.89a8.084 8.084 0 0 1-1.945 2.093Z"></path>
-                                </svg>
-                            </a>
-                            <a class="group -m-1 p-1" target="_blank" aria-label="Follow on GitHub"
-                               href="https://github.com/jolamemushaj">
-                                <svg viewBox="0 0 24 24" aria-hidden="true"
-                                     class="h-6 w-6 fill-white transition group-hover:fill-gray-200">
-                                    <path fill-rule="evenodd" clip-rule="evenodd"
-                                          d="M12 2C6.475 2 2 6.588 2 12.253c0 4.537 2.862 8.369 6.838 9.727.5.09.687-.218.687-.487 0-.243-.013-1.05-.013-1.91C7 20.059 6.35 18.957 6.15 18.38c-.113-.295-.6-1.205-1.025-1.448-.35-.192-.85-.667-.013-.68.788-.012 1.35.744 1.538 1.051.9 1.551 2.338 1.116 2.912.846.088-.666.35-1.115.638-1.371-2.225-.256-4.55-1.14-4.55-5.062 0-1.115.387-2.038 1.025-2.756-.1-.256-.45-1.307.1-2.717 0 0 .837-.269 2.75 1.051.8-.23 1.65-.346 2.5-.346.85 0 1.7.115 2.5.346 1.912-1.333 2.75-1.05 2.75-1.05.55 1.409.2 2.46.1 2.716.637.718 1.025 1.628 1.025 2.756 0 3.934-2.337 4.806-4.562 5.062.362.32.675.936.675 1.897 0 1.371-.013 2.473-.013 2.82 0 .268.188.589.688.486a10.039 10.039 0 0 0 4.932-3.74A10.447 10.447 0 0 0 22 12.253C22 6.588 17.525 2 12 2Z"></path>
-                                </svg>
-                            </a>
-                            <a class="group -m-1 p-1" target="_blank" aria-label="Follow on LinkedIn"
-                               href="https://www.linkedin.com/in/fabjola-memushaj/">
-                                <svg viewBox="0 0 24 24"
-                                     class="h-6 w-6 fill-white transition group-hover:fill-gray-200">
-                                    <path d="M18.335 18.339H15.67v-4.177c0-.996-.02-2.278-1.39-2.278-1.389 0-1.601 1.084-1.601 2.205v4.25h-2.666V9.75h2.56v1.17h.035c.358-.674 1.228-1.387 2.528-1.387 2.7 0 3.2 1.778 3.2 4.091v4.715zM7.003 8.575a1.546 1.546 0 01-1.548-1.549 1.548 1.548 0 111.547 1.549zm1.336 9.764H5.666V9.75H8.34v8.589zM19.67 3H4.329C3.593 3 3 3.58 3 4.297v15.406C3 20.42 3.594 21 4.328 21h15.338C20.4 21 21 20.42 21 19.703V4.297C21 3.58 20.4 3 19.666 3h.003z"></path>
-                                </svg>
-                            </a>
-                            <a class="group -m-1 p-1" target="_blank" aria-label="Follow on Dev"
-                               href="https://dev.to/jolamemushaj">
-                                <svg viewBox="0 0 512 512"
-                                     class="h-6 w-6 fill-white transition group-hover:fill-gray-200">
-                                    <path d="M140.47 203.94h-17.44v104.47h17.45c10.155-.545 17.358-8.669 17.47-17.41v-69.65c-.696-10.364-7.796-17.272-17.48-17.41zm45.73 87.25c0 18.81-11.61 47.31-48.36 47.25h-46.4V172.98h47.38c35.44 0 47.36 28.46 47.37 47.28zm100.68-88.66H233.6v38.42h32.57v29.57H233.6v38.41h53.29v29.57h-62.18c-11.16.29-20.44-8.53-20.72-19.69V193.7c-.27-11.15 8.56-20.41 19.71-20.69h63.19zm103.64 115.29c-13.2 30.75-36.85 24.63-47.44 0l-38.53-144.8h32.57l29.71 113.72 29.57-113.72h32.58z"></path>
-                                </svg>
-                            </a>
-                        </div>
-
+                    <div class="text-6xl lg:text-8xl text-black font-ternary tracking-tighter">
+                        enthusiastic
+                    </div>
+                    <div class="text-6xl lg:text-8xl text-black font-ternary tracking-tighter">
+                        developer.
+                    </div>
+                </div>
+                <div class="flex flex-col space-y-8">
+                    <div class="mt-3 max-w-xl text-5xl text-black font-primary tracking-tighter">
+                        My name is Fabjola.
+                    </div>
+                    <div class="mt-3 max-w-2xl text-sm text-black font-secondary tracking-wider">
+                        I am a finance graduate with a passion for coding and technology.
+                        The last two years have been a fantastic journey for me, starting with the decision to change
+                        career
+                        and embark on the self-taught journey of learning programming. Continuous courses, contribution
+                        to open
+                        source and small part-time jobs, have been the biggest help to better understand technology. The
+                        main
+                        focus has been learning Css, Javascript and Php, while the main frameworks have been Tailwind
+                        CSS, Vue
+                        and Laravel.
+                        Recently, I have also entered into the field of software testing, improving my skills through a
+                        dedicated
+                        course.
+                        I am driven by a strong determination to further expand my knowledge and actively contribute to
+                        the
+                        technology industry.
+                    </div>
+                    <div class="flex flex-row justify-end text-end space-x-8 mt-4">
+                        <a class="group -m-1 p-1"
+                           target="_blank"
+                           aria-label="Follow on Twitter"
+                           href="https://twitter.com/jola_memushaj"
+                        >
+                            <svg viewBox="0 0 24 24"
+                                 aria-hidden="true"
+                                 class="h-6 w-6 fill-black">
+                                <path d="M20.055 7.983c.011.174.011.347.011.523 0 5.338-3.92 11.494-11.09 11.494v-.003A10.755 10.755 0 0 1 3 18.186c.308.038.618.057.928.058a7.655 7.655 0 0 0 4.841-1.733c-1.668-.032-3.13-1.16-3.642-2.805a3.753 3.753 0 0 0 1.76-.07C5.07 13.256 3.76 11.6 3.76 9.676v-.05a3.77 3.77 0 0 0 1.77.505C3.816 8.945 3.288 6.583 4.322 4.737c1.98 2.524 4.9 4.058 8.034 4.22a4.137 4.137 0 0 1 1.128-3.86A3.807 3.807 0 0 1 19 5.274a7.657 7.657 0 0 0 2.475-.98c-.29.934-.9 1.729-1.713 2.233A7.54 7.54 0 0 0 22 5.89a8.084 8.084 0 0 1-1.945 2.093Z"></path>
+                            </svg>
+                        </a>
+                        <a class="group -m-1 p-1"
+                           target="_blank"
+                           aria-label="Follow on GitHub"
+                           href="https://github.com/jolamemushaj"
+                        >
+                            <svg viewBox="0 0 24 24"
+                                 aria-hidden="true"
+                                 class="h-6 w-6 fill-black">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                      d="M12 2C6.475 2 2 6.588 2 12.253c0 4.537 2.862 8.369 6.838 9.727.5.09.687-.218.687-.487 0-.243-.013-1.05-.013-1.91C7 20.059 6.35 18.957 6.15 18.38c-.113-.295-.6-1.205-1.025-1.448-.35-.192-.85-.667-.013-.68.788-.012 1.35.744 1.538 1.051.9 1.551 2.338 1.116 2.912.846.088-.666.35-1.115.638-1.371-2.225-.256-4.55-1.14-4.55-5.062 0-1.115.387-2.038 1.025-2.756-.1-.256-.45-1.307.1-2.717 0 0 .837-.269 2.75 1.051.8-.23 1.65-.346 2.5-.346.85 0 1.7.115 2.5.346 1.912-1.333 2.75-1.05 2.75-1.05.55 1.409.2 2.46.1 2.716.637.718 1.025 1.628 1.025 2.756 0 3.934-2.337 4.806-4.562 5.062.362.32.675.936.675 1.897 0 1.371-.013 2.473-.013 2.82 0 .268.188.589.688.486a10.039 10.039 0 0 0 4.932-3.74A10.447 10.447 0 0 0 22 12.253C22 6.588 17.525 2 12 2Z"></path>
+                            </svg>
+                        </a>
+                        <a class="group -m-1 p-1"
+                           target="_blank"
+                           aria-label="Follow on LinkedIn"
+                           href="https://www.linkedin.com/in/fabjola-memushaj/"
+                        >
+                            <svg viewBox="0 0 24 24"
+                                 class="h-6 w-6 fill-black">
+                                <path d="M18.335 18.339H15.67v-4.177c0-.996-.02-2.278-1.39-2.278-1.389 0-1.601 1.084-1.601 2.205v4.25h-2.666V9.75h2.56v1.17h.035c.358-.674 1.228-1.387 2.528-1.387 2.7 0 3.2 1.778 3.2 4.091v4.715zM7.003 8.575a1.546 1.546 0 01-1.548-1.549 1.548 1.548 0 111.547 1.549zm1.336 9.764H5.666V9.75H8.34v8.589zM19.67 3H4.329C3.593 3 3 3.58 3 4.297v15.406C3 20.42 3.594 21 4.328 21h15.338C20.4 21 21 20.42 21 19.703V4.297C21 3.58 20.4 3 19.666 3h.003z"></path>
+                            </svg>
+                        </a>
+                        <a class="group -m-1 p-1"
+                           target="_blank"
+                           aria-label="Follow on Dev"
+                           href="https://dev.to/jolamemushaj"
+                        >
+                            <svg viewBox="0 0 512 512"
+                                 class="h-6 w-6 fill-black">
+                                <path d="M140.47 203.94h-17.44v104.47h17.45c10.155-.545 17.358-8.669 17.47-17.41v-69.65c-.696-10.364-7.796-17.272-17.48-17.41zm45.73 87.25c0 18.81-11.61 47.31-48.36 47.25h-46.4V172.98h47.38c35.44 0 47.36 28.46 47.37 47.28zm100.68-88.66H233.6v38.42h32.57v29.57H233.6v38.41h53.29v29.57h-62.18c-11.16.29-20.44-8.53-20.72-19.69V193.7c-.27-11.15 8.56-20.41 19.71-20.69h63.19zm103.64 115.29c-13.2 30.75-36.85 24.63-47.44 0l-38.53-144.8h32.57l29.71 113.72 29.57-113.72h32.58z"></path>
+                            </svg>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -73,232 +108,311 @@
     </div>
 
 
-    <div class="relative px-4 pt-16 pb-20 sm:px-6 lg:px-8 lg:pt-24 lg:pb-28">
+    <!--------------Body-------------------->
+    <div class="bg-gray-50">
+        <div class="flex flex-col space-y-12 pt-20 max-w-7xl mx-auto">
+            <div class="text-4xl font-ternary text-end tracking-tighter mx-6 md:mx-20">Open Source</div>
+            <div class="flex flex-col lg:flex-row lg:space-x-12 rounded-3xl shadow-lg px-6 md:px-16 py-12 mx-6 md:mx-20 bg-neutral">
+                <div class="flex flex-col justify-between pb-4 px-6">
+                    <a href="https://litterapp.net/"
+                       target="_blank"
+                       class="mt-2 block"
+                    >
+                        <p class="text-3xl font-semibold text-black font-primary hover:-translate-y-1 transition hover:duration-300">
+                            Contributing to Litter App
+                        </p>
+                        <p class="mt-3 text-sm text-black font-secondary tracking-wider">
+                            LitterApp brings together various groups focused on waste management and zero-waste efforts.
+                            In my role as a developer, I took charge of developing the user interface using Vue.js,
+                            Laravel, and Tailwind CSS. Working closely with the designer, I turned their designs into
+                            working parts, making sure the desktop and mobile versions of the landing page fit together
+                            smoothly.
+                        </p>
+                        <div class="mt-3 font-secondary font-extralight text-sm text-black uppercase tracking-wider">
+                            Used technology:
+                            <span class="underline">Vue 3, Tailwind Css, Laravel, Vite,
+                                Filament</span>
+                        </div>
+                    </a>
+                </div>
+                <img class="h-72 w-full lg:w-2/5 object-cover rounded-3xl shadow-sm shadow-primary"
+                     src="/img/litterapp.png"
+                     alt="">
+            </div>
+        </div>
+        <div class="flex flex-col space-y-12 py-20 max-w-7xl mx-auto">
+            <div class="text-4xl font-ternary text-end tracking-tighter mx-6 md:mx-20">My Projects</div>
 
-        <div class="relative mx-auto max-w-7xl">
+            <div class="flex flex-col lg:flex-row lg:space-x-12 rounded-3xl shadow-lg px-6 md:px-16 py-12 mx-6 md:mx-20 bg-neutral">
+                <div class="flex flex-col justify-start space-y-8 pb-4 mt-2">
+                    <a href="https://cup-book.netlify.app/"
+                       target="_blank"
+                       class="text-2xl font-black text-black font-primary hover:-translate-y-1 transition hover:duration-300">
+                        Project #10 - Creating CupBook
+                        with Vue Routing and Tailwind CSS
+                    </a>
+                    <p class="mt-3 text-sm text-black font-secondary tracking-wider">
+                        Welcome to CupBook, a project imagined as a cozy heaven for book lovers and avid readers
+                        alike.
+                        Developed with Vue 3 Composition API, Vue Routing and Tailwind CSS.
+                        Involves filtering books by searching, validating forms, and handling complex design
+                        requirements.
+                    </p>
+                    <div class="flex flex-col lg:flex-row justify-between">
+                        <div class="flex flex-col">
+                            <div class="mt-3 font-secondary font-extralight text-sm text-black uppercase tracking-wider">
+                                Used technology: <span class="underline">Vue 3, Tailwind Css</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <img class="h-72 w-full lg:w-2/5 object-cover rounded-3xl shadow-sm"
+                     src="/img/cupbook.webp"
+                     alt="">
+            </div>
 
-            <div class="mx-auto mt-0.5 grid max-w-lg gap-5 lg:gap-y-12 lg:max-w-none lg:grid-cols-3">
-                <div class="flex flex-col overflow-hidden rounded-lg shadow-lg">
-                    <div class="flex-shrink-0">
-                        <img class="h-48 w-full object-cover"
-                             src="img/cupbook.webp"
-                             alt="">
-                    </div>
-                    <div class="flex flex-1 flex-col justify-between bg-white p-6">
-                        <div class="flex-1">
-                            <a href="https://cup-book.netlify.app/" target="_blank" class="mt-2 block">
-                                <p class="text-xl font-semibold text-stone-700">Project #10 - Creating CupBook
-                                    with Vue Routing and Tailwind CSS</p>
-                                <p class="mt-3 text-base text-gray-500">
-                                    Welcome to CupBook, a project imagined as a cozy heaven for book lovers and avid readers alike.
-                                    Developed with Vue 3 Composition API, Vue Routing and Tailwind CSS.
-                                    Involves filtering books by searching, validating forms, and handling complex design requirements.
-                                </p>
-                            </a>
-                        </div>
+            <div class="flex flex-col lg:flex-row lg:space-x-12 rounded-3xl shadow-lg px-6 md:px-16 py-12 mx-6 md:mx-20 bg-neutral">
+                <div class="flex flex-col justify-start space-y-8 pb-4 mt-2">
+                    <a href="https://my-booking.fabjolamemushaj.com/" target="_blank"
+                       class="text-2xl font-black text-black font-primary hover:-translate-y-1 transition hover:duration-300">
+                        Project #9 - Recreating Booking Page
+                        with
+                        Tailwind CSS in blade components.</a>
+                    <p class="mt-3 text-sm text-black font-secondary tracking-wider">
+                        I recently undertook a project to recreate the Booking page, showcasing the
+                        capabilities of Tailwind CSS in Laravel's Blade components. The seamless integration
+                        of Tailwind's utility-first approach allowed for efficient styling, resulting in a
+                        responsive and engaging user interface.
+                    </p>
+                    <div class="mt-3 font-secondary font-extralight text-sm text-black uppercase tracking-wider">Used
+                        technology: <span class="underline">Tailwind CSS, Laravel blades</span>
                     </div>
                 </div>
-                <div class="flex flex-col overflow-hidden rounded-lg shadow-lg">
-                    <div class="flex-shrink-0">
-                        <img class="h-48 w-full object-cover"
-                             src="img/booking.webp"
-                             alt="">
-                    </div>
-                    <div class="flex flex-1 flex-col justify-between bg-white p-6">
-                        <div class="flex-1">
-                            <a href="https://my-booking.fabjolamemushaj.com/" target="_blank" class="mt-2 block">
-                                <p class="text-xl font-semibold text-stone-700">Project #9 - Recreating Booking Page
-                                    with
-                                    Tailwind CSS in blade components. </p>
-                                <p class="mt-3 text-base text-gray-500">
-                                    I recently undertook a project to recreate the Booking page, showcasing the
-                                    capabilities of Tailwind CSS in Laravel's Blade components. The seamless integration
-                                    of Tailwind's utility-first approach allowed for efficient styling, resulting in a
-                                    responsive and engaging user interface.
-                                </p>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="flex flex-col overflow-hidden rounded-lg shadow-lg">
-                    <div class="flex-shrink-0">
-                        <img class="h-48 w-full object-cover"
-                             src="img/wishlist.webp"
-                             alt="">
-                    </div>
-                    <div class="flex flex-1 flex-col justify-between bg-white p-6">
-                        <div class="flex-1">
-                            <a href="https://wishlist.fabjolamemushaj.com/" target="_blank" class="mt-2 block">
-                                <p class="text-xl font-semibold text-stone-700">Project #8 - Creating a CRUD app with
-                                    Laravel and Tailwind CSS. </p>
-                                <p class="mt-3 text-base text-gray-500">
-                                    The app is about creating a wishlist. The user can add, edit and delete items from
-                                    it. The site is designed for products that a user wants to buy, divided by
-                                    categories. It is built with Laravel and Tailwind CSS.
-                                </p>
-                            </a>
-                        </div>
+                <img class="h-72 w-full lg:w-2/5 object-cover rounded-3xl shadow-sm shadow-primary"
+                     src="/img/booking.webp"
+                     alt="">
+            </div>
+
+            <div class="flex flex-col lg:flex-row lg:space-x-12 rounded-3xl shadow-lg px-6 md:px-16 py-12 mx-6 md:mx-20 bg-neutral">
+                <div class="flex flex-col justify-start space-y-8 pb-4 mt-2">
+                    <a href="https://wishlist.fabjolamemushaj.com/" target="_blank"
+                       class="text-2xl font-black text-black font-primary hover:-translate-y-1 transition hover:duration-300">
+                        Project #8 - Creating a CRUD app with
+                        Laravel and Tailwind CSS. </a>
+                    <p class="mt-3 text-sm text-black font-secondary tracking-wider">
+                        The app is about creating a wishlist. The user can add, edit and delete items from
+                        it. The site is designed for products that a user wants to buy, divided by
+                        categories. It is built with Laravel and Tailwind CSS.
+                    </p>
+                    <div class="mt-3 font-secondary font-extralight text-sm text-black uppercase tracking-wider">Used
+                        technology:
+                        <span class="underline">Tailwind CSS, Laravel</span>
                     </div>
                 </div>
-                <div class="flex flex-col overflow-hidden rounded-lg shadow-lg">
-                    <div class="flex-shrink-0">
-                        <img class="h-48 w-full object-cover"
-                             src="img/blog.webp"
-                             alt="">
-                    </div>
-                    <div class="flex flex-1 flex-col justify-between bg-white p-6">
-                        <div class="flex-1">
-                            <a href="https://laravel-blog.fabjolamemushaj.com/" target="_blank" class="mt-2 block">
-                                <p class="text-xl font-semibold text-stone-700">Project #7 - Creating a blog page using
-                                    Laravel</p>
-                                <p class="mt-3 text-base text-gray-500">
-                                    Creating a blog - with categories, tags, comments, email notifications, search,
-                                    filtering and more. The site is built with Laravel and Tailwind CSS. The blog is a
-                                    great way to learn how to build a CRUD app with Laravel.
-                                </p>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="flex flex-col overflow-hidden rounded-lg shadow-lg">
-                    <div class="flex-shrink-0">
-                        <img class="h-48 w-full object-cover"
-                             src="img/screen6.webp"
-                             alt="">
-                    </div>
-                    <div class="flex flex-1 flex-col justify-between bg-white p-6">
-                        <div class="flex-1">
-                            <a href="/project-6-pig-game" target="_blank" class="mt-2 block">
-                                <p class="text-xl font-semibold text-stone-700">Project #6 - Building Pig Game with
-                                    JavaScript</p>
-                                <p class="mt-3 text-base text-gray-500">The game is about throwing the dice and can be
-                                    played by two people. Whoever scores 100 points first, wins the game. But the game
-                                    can be interrupted at any moment to start a new one by clicking the New Game
-                                    button.</p>
-                            </a>
-                        </div>
+                <img class="h-72 w-full lg:w-2/5 object-cover rounded-3xl shadow-sm shadow-primary"
+                     src="/img/wishlist.webp"
+                     alt="">
+            </div>
+
+            <div class="flex flex-col lg:flex-row lg:space-x-12 rounded-3xl shadow-lg px-6 md:px-16 py-12 mx-6 md:mx-20 bg-neutral">
+                <div class="flex flex-col justify-start space-y-8 pb-4 mt-2">
+                    <a href="https://laravel-blog.fabjolamemushaj.com/" target="_blank"
+                       class="text-2xl font-black text-black font-primary hover:-translate-y-1 transition hover:duration-300">
+                        Project #7 - Creating a blog page
+                        using
+                        Laravel.</a>
+                    <p class="mt-3 text-sm text-black font-secondary tracking-wider">
+                        Creating a blog - with categories, tags, comments, email notifications, search,
+                        filtering and more. The site is built with Laravel and Tailwind CSS. The blog is a
+                        great way to learn how to build a CRUD app with Laravel.
+                    </p>
+                    <div class="mt-3 font-secondary font-extralight text-sm text-black uppercase tracking-wider">Used
+                        technology:
+                        <span class="underline">Tailwind CSS, Laravel 8</span>
                     </div>
                 </div>
-                <div class="flex flex-col overflow-hidden rounded-lg shadow-lg">
-                    <div class="flex-shrink-0">
-                        <img class="h-48 w-full object-cover"
-                             src="img/screen5.webp"
-                             alt="">
-                    </div>
-                    <div class="flex flex-1 flex-col justify-between bg-white p-6">
-                        <div class="flex-1">
-                            <a href="/project-5-guess-my-number" target="_blank" class="mt-2 block">
-                                <p class="text-xl font-semibold text-stone-700">Project #5 - Building the Guess My
-                                    Number game with JavaScript. </p>
-                                <p class="mt-3 text-base text-gray-500">The game consists of finding the randomly
-                                    generated number. The number must be from 1 to 20. Every time the player puts a
-                                    wrong number in 'Check!', points are reduced in 'Score'. The 'Again' button serves
-                                    to start a new game.</p>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="flex flex-col overflow-hidden rounded-lg shadow-lg">
-                    <div class="flex-shrink-0">
-                        <img class="h-48 w-full object-cover"
-                             src="img/screen4.webp"
-                             alt="">
-                    </div>
-                    <div class="flex flex-1 flex-col justify-between bg-white p-6">
-                        <div class="flex-1">
-                            <a href="/project-4-natours-scss" target="_blank" class="mt-2 block">
-                                <p class="text-xl font-semibold text-stone-700">Project #4 - Creating a travel website
-                                    with SCSS. </p>
-                                <p class="mt-3 text-base text-gray-500">Creating this site is the best way to get into
-                                    the depth of CSS. Learning how CSS works behind the scenes, how to build complex
-                                    animated buttons, a cool navigation, popups, and many more great things.</p>
-                            </a>
-                        </div>
+                <img class="h-72 w-full lg:w-2/5 object-cover rounded-3xl shadow-sm shadow-primary"
+                     src="/img/blog.webp"
+                     alt="">
+            </div>
+
+            <div class="flex flex-col lg:flex-row lg:space-x-12 rounded-3xl shadow-lg px-6 md:px-16 py-12 mx-6 md:mx-20 bg-neutral">
+                <div class="flex flex-col justify-start space-y-8 pb-4 mt-2">
+                    <a href="/project-6-pig-game" target="_blank"
+                       class="text-2xl font-black text-black font-primary hover:-translate-y-1 transition hover:duration-300">
+                        Project #6 - Building Pig Game with
+                        JavaScript.</a>
+                    <p class="mt-3 text-sm text-black font-secondary tracking-wider">
+                        The game is about throwing the dice and can be
+                        played by two people. Whoever scores 100 points first, wins the game. But the game
+                        can be interrupted at any moment to start a new one by clicking the New Game
+                        button.
+                        This project helped me to learn how to think and work like a developer: problem-solving,
+                        researching, workflows
+                    </p>
+                    <div class="mt-3 font-secondary font-extralight text-sm text-black uppercase tracking-wider">Used
+                        technology:
+                        <span class="underline">Javascript</span>
                     </div>
                 </div>
-                <div class="flex flex-col overflow-hidden rounded-lg shadow-lg">
-                    <div class="flex-shrink-0">
-                        <img class="h-48 w-full object-cover"
-                             src="img/screen3.webp"
-                             alt="">
-                    </div>
-                    <div class="flex flex-1 flex-col justify-between bg-white p-6">
-                        <div class="flex-1">
-                            <a href="/project-3-cooking-site" target="_blank" class="mt-2 block">
-                                <p class="text-xl font-semibold text-stone-700">Project #3 - Building a recipes site
-                                    with Tailwind</p>
-                                <p class="mt-3 text-base text-gray-500">Life seems easier after switching from CSS to
-                                    Tailwind. Learning how classes work in Tailwind. The site contains grids, buttons,
-                                    sidebar and positioning of page elements. Also creation of a responsive page.</p>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="flex flex-col overflow-hidden rounded-lg shadow-lg">
-                    <div class="flex-shrink-0">
-                        <img class="h-48 w-full object-cover"
-                             src="img/screen2.webp"
-                             alt="">
-                    </div>
-                    <div class="flex flex-1 flex-col justify-between bg-white p-6">
-                        <div class="flex-1">
-                            <a href="/project-2-tindog-bootstrap" target="_blank" class="mt-2 block">
-                                <p class="text-xl font-semibold text-stone-700">Project #2 - Building a dog dating site
-                                    with Bootstrap.</p>
-                                <p class="mt-3 text-base text-gray-500">Building a dog dating site seems a lot of fun
-                                    when you combine it with Bootstrap. Learning pricing tables, building a carousel and
-                                    cute buttons.</p>
-                            </a>
-                        </div>
+                <img class="h-72 w-full lg:w-2/5 object-cover rounded-3xl shadow-sm shadow-primary"
+                     src="/img/screen6.webp"
+                     alt="">
+            </div>
+
+            <div class="flex flex-col lg:flex-row lg:space-x-12 rounded-3xl shadow-lg px-6 md:px-16 py-12 mx-6 md:mx-20 bg-neutral">
+                <div class="flex flex-col justify-start space-y-8 pb-4 mt-2">
+                    <a href="/project-5-guess-my-number" target="_blank"
+                       class="text-2xl font-black text-black font-primary hover:-translate-y-1 transition hover:duration-300">
+                        Project #5 - Building the Guess My
+                        Number game with JavaScript.</a>
+                    <p class="mt-3 text-sm text-black font-secondary tracking-wider">
+                        The game consists of finding the randomly
+                        generated number. The number must be from 1 to 20. Every time the player puts a
+                        wrong number in 'Check!', points are reduced in 'Score'. The 'Again' button serves
+                        to start a new game. Developed with JavaScript and learning its fundamentals such as: variables,
+                        if/else,
+                        operators, boolean logic, functions,
+                        arrays, objects, loops, strings.
+                    </p>
+                    <div class="mt-3 font-secondary font-extralight text-sm text-black uppercase tracking-wider">Used
+                        technology:
+                        <span class="underline">Javascript</span>
                     </div>
                 </div>
-                <div class="flex flex-col overflow-hidden rounded-lg shadow-lg">
-                    <div class="flex-shrink-0">
-                        <img class="h-48 w-full object-cover"
-                             src="img/screen1.webp"
-                             alt="">
-                    </div>
-                    <div class="flex flex-1 flex-col justify-between bg-white p-6">
-                        <div class="flex-1">
-                            <a href="/project-1-my-cv" target="_blank" class="mt-2 block">
-                                <p class="text-xl font-semibold text-stone-700">Project #1 - Building a basic CV with
-                                    CSS.</p>
-                                <p class="mt-3 text-base text-gray-500">The first project is the moment when you learn
-                                    that there is something more than just a basic page with Html. Learning positioning,
-                                    floating, radius and the basics of pure CSS.</p>
-                            </a>
-                        </div>
+                <img class="h-72 w-full lg:w-2/5 object-cover rounded-3xl shadow-sm shadow-primary"
+                     src="/img/screen5.webp"
+                     alt="">
+            </div>
+
+            <div class="flex flex-col lg:flex-row lg:space-x-12 rounded-3xl shadow-lg px-6 md:px-16 py-12 mx-6 md:mx-20 bg-neutral">
+                <div class="flex flex-col justify-between pb-4 mt-2">
+                    <a href="/project-4-natours-scss" target="_blank"
+                       class="text-2xl font-black text-black font-primary hover:-translate-y-1 transition hover:duration-300">
+                        Project #4 - Creating a travel website
+                        with SCSS.</a>
+                    <p class="mt-3 text-sm text-black font-secondary tracking-wider">
+                        Building this website offered me a good opportunity to get into the depth of CSS. It
+                        includes understanding CSS basics like cascading, specification, and inheritance, as well as
+                        advanced concepts like component-based design, BEM methodology, and writing reusable code.
+                        It also includes working with SVG images and videos in HTML and CSS to create effects like
+                        background video. Through this project, I learned how to develop complex animated buttons,
+                        sleek navigation menus, popups and other impressive features.
+                    </p>
+                    <div class="mt-3 font-secondary font-extralight text-sm text-black uppercase tracking-wider">Used
+                        technology:
+                        <span class="underline">CSS, Sass</span>
                     </div>
                 </div>
+                <img class="h-72 w-full lg:w-2/5 object-cover rounded-3xl shadow-sm shadow-primary"
+                     src="/img/screen4.webp"
+                     alt="">
+            </div>
+
+            <div class="flex flex-col lg:flex-row lg:space-x-12 rounded-3xl shadow-lg px-6 md:px-16 py-12 mx-6 md:mx-20 bg-neutral">
+                <div class="flex flex-col justify-start space-y-8 pb-4 mt-2 ">
+                    <a href="/project-3-cooking-site"
+                       target="_blank"
+                       class="text-2xl font-black text-black font-primary hover:-translate-y-1 transition hover:duration-300">
+                        Project #3 - Building a recipes site
+                        with Tailwind.</a>
+                    <p class="mt-3 text-sm text-black font-secondary tracking-wider">
+                        Life seems easier after switching from CSS to
+                        Tailwind. Learning how classes work in Tailwind. The site contains Grids, Buttons,
+                        Sidebar and positioning of page elements with Flexbox. Also, includes responsive classes.
+                    </p>
+                    <div class="mt-3 font-secondary font-extralight text-sm text-black uppercase tracking-wider">Used
+                        technology:
+                        <span class="underline">CSS, Tailwind CSS</span></div>
+                </div>
+                <img class="h-72 w-full lg:w-2/5 object-cover rounded-3xl shadow-sm shadow-primary"
+                     src="/img/screen3.webp"
+                     alt="">
+            </div>
+
+            <div class="flex flex-col lg:flex-row lg:space-x-12 rounded-3xl shadow-lg px-6 md:px-16 py-12 mx-6 md:mx-20 bg-neutral">
+                <div class="flex flex-col justify-start space-y-8 pb-4 mt-2">
+                    <a href="/project-2-tindog-bootstrap"
+                       target="_blank"
+                       class="text-2xl font-black text-black font-primary hover:-translate-y-1 transition hover:duration-300">
+                        Project #2 - Building a dog dating
+                        site
+                        with Bootstrap.</a>
+                    <p class="mt-3 text-sm text-black font-secondary tracking-wider">
+                        Building a dog dating site seems a lot of fun
+                        when you combine it with Bootstrap. Learning how to install Bootstrap, creating the
+                        Navigation Bar,
+                        Grid Layout, Containers, Cards, Z index, Carousel, Pricing Tables, and refactoring.
+                    </p>
+                    <div class="mt-3 font-secondary font-extralight text-sm text-black uppercase tracking-wider">Used
+                        technology: <span
+                                class="underline">CSS, Bootstrap</span></div>
+                </div>
+                <img class="h-72 w-full lg:w-2/5 object-cover rounded-3xl shadow-sm shadow-primary"
+                     src="/img/screen2.webp"
+                     alt="">
+            </div>
+
+            <div class="flex flex-col lg:flex-row lg:space-x-12 rounded-3xl shadow-lg px-6 md:px-16 py-12 mx-6 md:mx-20 bg-neutral">
+                <div class="flex flex-col justify-start space-y-8 pb-4 mt-2">
+                    <a href="/project-1-my-cv"
+                       target="_blank"
+                       class="text-2xl font-black text-black font-primary hover:-translate-y-1 transition hover:duration-300">
+                        Project #1 - Making A Personalized Website using CSS
+                    </a>
+                    <p class="mt-3 text-sm text-black font-secondary tracking-wider">
+                        The first project is the moment when you learn
+                        that there is something more than just a basic page with Html. Learning my first concepts
+                        about CSS Syntax, CSS
+                        Selectors, Display Property, Positioning, Float and other basic things of pure CSS.
+                    </p>
+                    <div class="mt-3 font-secondary font-extralight text-sm text-black uppercase tracking-wider">Used
+                        technology: <span
+                                class="underline">CSS</span></div>
+                </div>
+                <img class="h-72 w-full lg:w-2/5 object-cover rounded-3xl shadow-sm shadow-primary"
+                     src="/img/screen1.webp"
+                     alt="">
             </div>
         </div>
     </div>
 </div>
 </body>
 
-<footer class="bg-stone-800">
-    <div class="mx-auto max-w-7xl overflow-hidden py-12 px-4 sm:px-6 lg:px-8">
-        <div class="mt-4 flex justify-center text-2xl text-gray-300 space-x-6">
-            <div class="text-xl text-gray-300 flex flex-col md:flex-row md:space-x-8 items-center justify-center">
-                <p class="text-2xl text-gray-50">Reach out to me at:</p>
-                <p class="text-center">
-                    <span class="text-xl text-teal-600 ">jolamemushaj@gmail.com </span>|
-                    <a href="https://github.com/jolamemushaj" class="text-xl text-teal-600 hover:underline"
-                       target="_blank"
-                       rel="noreferrer">GitHub</a> |
-                    <a href="https://dev.to/jolamemushaj" class="text-xl text-teal-600 hover:underline" target="_blank"
-                       rel="noreferrer">Dev.to</a> |
-                    <a href="https://twitter.com/jola_memushaj" class="text-xl text-teal-600 hover:underline"
-                       target="_blank"
-                       rel="noreferrer">Twitter</a>
-                </p>
-            </div>
+<!--------------Footer-------------------->
+<footer class="bg-primary overflow-hidden px-6">
+
+    <div class="flex flex-col md:flex-row justify-between py-24">
+        <div class="md:w-1/2 flex flex-col space-y-6 items-center justify-center">
+            <p class="text-center text-black font-primary text-5xl">Reach out to me at:</p>
+            <button type="button"
+                    class="w-72 text-center transition duration-300 ease-in-out rounded-lg bg-transparent px-12 py-2 text-base text-black font-secondary ring-1 hover:ring-0 ring-inset ring-black hover:bg-black hover:text-primary"
+            >jolamemushaj@gmail.com
+            </button>
+            <a href="https://github.com/jolamemushaj"
+               target="_blank"
+               class="w-72 text-center transition duration-300 ease-in-out rounded-lg bg-transparent px-12 py-2 text-base text-black font-secondary ring-1 hover:ring-0 ring-inset ring-black hover:bg-black hover:text-primary"
+            >GitHub
+            </a>
+            <a href="https://dev.to/jolamemushaj"
+               target="_blank"
+               class="w-72 text-center transition duration-300 ease-in-out rounded-lg bg-transparent px-12 py-2 text-base text-black font-secondary ring-1 hover:ring-0 ring-inset ring-black hover:bg-black hover:text-primary"
+            >Dev.to
+            </a>
+            <a href="https://twitter.com/jola_memushaj"
+               target="_blank"
+               class="w-72 text-center transition duration-300 ease-in-out rounded-lg bg-transparent px-12 py-2 text-base text-black font-secondary ring-1 hover:ring-0 ring-inset ring-black hover:bg-black hover:text-primary"
+            >Twitter
+            </a>
         </div>
-        <p class="mt-8 text-center text-base text-gray-50">&copy; 2024 Fabjola Memushaj. All rights reserved.</p>
+        <div class="md:w-1/2 text-center bg-primary font-ternary text-7xl tracking-tighter pt-12">If at first you don't succeed, call
+            it version 1.0
+        </div>
+    </div>
+
+
+    <div class="text-center text-sm text-black font-secondary font-bold tracking-wider py-6">©2024 – Fabjola Memushaj –
+        All rights reserved
     </div>
 </footer>
-
-<!-- License: MIT. Made by edent: https://github.com/edent/SuperTinyIcons -->
-
-
 </html>
